@@ -6,7 +6,7 @@ print(natija)
 # 2.Berilgan matnni teskari tartibda qaytaruvchi funksiya yozing (def reverse_text(text: str) -> str).
 def reverse_text(text: str)->str:
     return text[::-1]
-matn = "Salom Dunyo"
+matn = input("Matnni kiriting: ")
 print(reverse_text(matn))
 # 3.Ro‘yxatda eng katta sonni topuvchi funksiya yozing.
 def katta_son(royxat):
@@ -25,4 +25,5 @@ def is_even(n: int) -> bool:
     return n % 2 == 0
 print(is_even(2))
 print(is_even(9))
+
 
