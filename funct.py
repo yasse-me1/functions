@@ -15,13 +15,14 @@ sonlar = [3, 7, 2, 10, 5]
 print(katta_son(sonlar))
 
 # 4.Foydalanuvchidan ism va yosh so‘rab, xabar qaytaruvchi funksiya yozing.
-def malumot():
+def malumot(ism,yosh):
+    return ism,yosh
     ism = input("Ismingizni kiriting: ")
     yosh = int(input("Yoshingizni kiriting: "))
-    return f"Salom, sizning ismingiz {ism}, sizning yoshingiz {yosh} da."
-print(malumot())
+    print(f"Salom, sizning ismingiz {ism}, sizning yoshingiz {yosh} da.")
 # 5.Son juft yoki toq ekanligini tekshiruvchi funksiya yozing (def is_even(n: int) -> bool).
 def is_even(n: int) -> bool:
     return n % 2 == 0
 print(is_even(2))
 print(is_even(9))
+
